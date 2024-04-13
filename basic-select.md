@@ -3,8 +3,6 @@
 
 Query all columns for all American cities in CITY with populations larger than 100,000. The CountryCode for America is USA.
 
-Input Format
-
 The CITY table is described as follows:
 
 |Field 	      | Type          |
@@ -20,14 +18,11 @@ The CITY table is described as follows:
 SELECT * FROM city WHERE population > 100000 AND countrycode="USA";
 ```
 
-
 ###Revising the Select Query-2
 
 
 Query the NAME field for all American cities in the CITY table with populations larger than 120000. The CountryCode for America is USA. 
 
-
-Input Format
 
 The CITY table is described as follows:
 
@@ -43,3 +38,9 @@ The CITY table is described as follows:
 ```sql
 SELECT name FROM city WHERE countrycode='USA' AND population > 120000 ;
 ```
+
+###Select All
+
+
+Query all columns (attributes) for every row in the CITY table.
+
