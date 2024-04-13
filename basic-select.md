@@ -17,5 +17,5 @@ The CITY table is described as follows:
 
 **Solution**
 ```sql
-select
+SELECT * FROM city WHERE population > 100000 AND countrycode="USA";
 ```
